@@ -9,5 +9,11 @@ setup(
         "fastapi>=0.115.5",
         "uvicorn>=0.32.1",
     ],
+    extras_require={
+        "test": [
+            "pytest>=8.3.3",
+            "httpx>=0.27.0",
+        ],
+    },
     python_requires=">=3.8",
 )
